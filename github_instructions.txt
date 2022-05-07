@@ -1,0 +1,8 @@
+Commands for creating and pushing new folder to a new branch:
+cd folder
+git init
+git add .
+git commit -m "msg"
+git add remote origin <ssh link of repo>
+git checkout -b <new branch name>
+git push -u origin <new branch name> (note: -u is to set branch/repo as default to make push/pull easier)
